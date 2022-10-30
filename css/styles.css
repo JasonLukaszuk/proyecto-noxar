@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
 
 
@@ -28,7 +27,7 @@ body {
     border-radius: 50px;
     display: inline-block;
     background-color: #C0B2B5;
-    text-align:justify;
+    text-align: justify;
     padding: 7px;
     margin-inline: 5px;
     font-size: 1.5rem;
@@ -39,18 +38,18 @@ body {
 
 
 
-.navbar .navbar__list .navbar__item:hover{
+.navbar .navbar__list .navbar__item:hover {
     background-color: crimson;
     box-shadow: 0px 9px 9px;
     transform: scale(1.2);
 }
 
-.titulo-categoria{
-    font-family:Metamorphous;
+.titulo-categoria {
+    font-family: Metamorphous;
     font-size: 3rem;
-    color:rgb(124, 0, 0);
+    color: rgb(124, 0, 0);
     text-align: center;
-    background-color:black;
+    background-color: black;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -59,16 +58,17 @@ body {
     margin-top: 50px;
     font-family: Metamorphous;
     font-size: 3rem;
-    color:rgb(124, 0, 0);
+    color: rgb(124, 0, 0);
     text-align: center;
-    background-color:black;
+    background-color: black;
 }
 
 .noticia .noticia__titulo {
-    padding: 50px;;
+    padding: 50px;
+    ;
     font-size: 2rem;
-    font-family:Metamorphous;
-    color:rgb(124, 0, 0);
+    font-family: Metamorphous;
+    color: rgb(124, 0, 0);
 }
 
 .noticia .noticia__texto {
@@ -80,9 +80,24 @@ body {
     text-align: justify;
 }
 
-.caja-img{
-text-align: center;
+
+@media (max-width: 400px) {
+
+    .noticia .noticia__texto {
+        margin-inline: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 1.2rem;
+        font-family: monospace;
+        text-align: left;
+    }
+
 }
+
+.caja-img {
+    text-align: center;
+}
+
 .new__img {
     margin-top: 80px;
     width: 75%;
@@ -92,14 +107,44 @@ text-align: center;
 }
 
 .new__img:hover {
-        box-shadow: 0px 9px 9px;
-        transform: scale(1.1);
+    box-shadow: 0px 9px 9px;
+    transform: scale(1.1);
+}
+
+@media (min-width: 1024px) {
+
+
+    .noticia .texto-imagen {
+        gap: 25px;
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: repeat(2, 10%);
+
     }
+
+    .new__img {
+        width: 100%;
+        height:auto;
+    }
+
+    .noticia .noticia__texto {
+        width: 100%;
+        height: auto;
+        font-size: 1.3rem;
+        text-align:left;
+    }
+}
+
+.caja-galery{ 
+    width: 90%;
+    margin:auto;
+    border: 0.5rem groove crimson;
+}
 
 .formularios {
     margin-left: 100px;
     font-size: 1.7rem;
-    font-family:Metamorphous;
+    font-family: Metamorphous;
 }
 
 .miniformu {
@@ -115,13 +160,13 @@ text-align: center;
     padding-right: 2px;
     font-size: 1rem;
     color: rgb(124, 0, 0);
-    background-color:#C0B2B5;
+    background-color: #C0B2B5;
     border-radius: 7px;
     transition-duration: 0.4s;
     transition-timing-function: ease;
 }
 
-.boton:hover{
+.boton:hover {
     background-color: rgba(255, 0, 0, 0.116);
     box-shadow: 0px 9px 9px;
     transform: scale(1.1);
@@ -134,11 +179,11 @@ text-align: center;
     padding-bottom: 7%;
     font-family: monospace;
     text-align: center;
-    border: 10px groove crimson;
+    border: 0.5rem groove crimson;
 }
 
 .top-pvp h2 {
-    font-family:Metamorphous;
+    font-family: Metamorphous;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -148,7 +193,7 @@ footer {
     background-color: #C0B2B5;
     text-align: center;
     font-size: 1.2rem;
-    font-family:Metamorphous;
+    font-family: Metamorphous;
 }
 
 footer ul {
@@ -161,14 +206,15 @@ footer h2 {
     color: rgb(124, 0, 0);
 }
 
-.foot{
+.foot {
     border-radius: 10px;
     padding: 5px;
     margin: 10px;
     transition-duration: 0.4s;
     transition-timing-function: ease;
 }
-.foot:hover{
+
+.foot:hover {
     background-color: rgba(255, 0, 0, 0.116);
     box-shadow: 0px 9px 9px;
     transform: scale(1.2);
