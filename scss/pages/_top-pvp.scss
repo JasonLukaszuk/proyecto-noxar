@@ -1,0 +1,16 @@
+.top-pvp {
+    margin-top: 10px;
+    background-color: $color-sh;
+    font-size: 1.5rem;
+    padding-inline-start: 5%;
+    padding-bottom: 7%;
+    font-family: monospace;
+    text-align: center;
+    border: 0.5rem groove crimson;
+
+& h2 {
+    font-family: Metamorphous;;
+    text-align: center;
+    padding-bottom: 50px;
+}
+}

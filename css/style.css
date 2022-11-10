@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Metamorphous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formularios {
+  margin-left: 100px;
+  font-size: 1.7rem;
+  font-family: Metamorphous;
+}
+
+.miniformu {
+  margin: 25px;
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.boton {
+  font-family: monospace;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 1rem;
+  color: rgb(124, 0, 0);
+  background-color: #C0B2B5;
+  border-radius: 7px;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.boton:hover {
+  background-color: rgba(255, 0, 0, 0.116);
+  box-shadow: 0px 9px 9px;
+  transform: scale(1.1);
+}
+
+body {
+  background-color: #F0EFEA;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #C0B2B5;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: Metamorphous;
+}
+footer ul {
+  display: inline-block;
+}
+footer h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(124, 0, 0);
+}
+
+.foot {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.foot:hover {
+  background-color: rgba(255, 0, 0, 0.116);
+  box-shadow: 0px 9px 9px;
+  transform: scale(1.2);
+}
+
+.header__titulo {
+  font-size: 5rem;
+  font-family: Metamorphous;
+  color: crimson;
+  background-color: black;
+  background-image: url(../img/bgtarjeta.gif);
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.titulo-categoria {
+  font-family: Metamorphous;
+  background-image: url(../img/banner2.jpg);
+  font-size: 3rem;
+  color: #F0EFEA;
+  text-align: center;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.portada__titulo {
+  margin-top: 50px;
+  font-family: Metamorphous;
+  font-size: 3rem;
+  color: rgb(124, 0, 0);
+  text-align: center;
+  background-color: black;
+}
+
+.navbar__item {
+  border-radius: 50px;
+  display: inline-block;
+  background-color: #C0B2B5;
+  text-align: justify;
+  padding: 7px;
+  margin-inline: 5px;
+  font-size: 1.5rem;
+  font-family: monospace;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.navbar__item:hover {
+  background-color: crimson;
+  box-shadow: 0px 9px 9px;
+  transform: scale(1.2);
+}
+
+.new-class {
+  font-family: Metamorphous;
+  text-align: center;
+  background-color: #C0B2B5;
+  box-shadow: 0px 4px 4px;
+  border-radius: 20px;
+  margin: 10px;
+  min-width: 200px;
+  max-width: 200px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.new-class:hover {
+  box-shadow: 0px 9px 9px;
+  color: crimson;
+}
+
+.img__tarjeta {
+  width: 65%;
+  justify-content: left;
+}
+
+.slider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  overflow-x: auto;
+  gap: 5px;
+}
+
+.noticia__titulo {
+  padding: 50px;
+  font-size: 2rem;
+  font-family: Metamorphous;
+  color: rgb(124, 0, 0);
+}
+.noticia__texto {
+  margin-inline: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 1.5rem;
+  font-family: monospace;
+  text-align: justify;
+}
+
+@media (max-width: 400px) {
+  .noticia .noticia__texto {
+    margin-inline: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.2rem;
+    font-family: monospace;
+    text-align: left;
+  }
+}
+.caja-img {
+  text-align: center;
+}
+
+.new__img {
+  margin-top: 80px;
+  width: 75%;
+  height: auto;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+
+.new__img:hover {
+  box-shadow: 0px 9px 9px;
+  transform: scale(1.1);
+}
+
+@media (min-width: 1024px) {
+  .noticia .texto-imagen {
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(2, 10%);
+  }
+  .new__img {
+    width: 100%;
+    height: auto;
+  }
+  .noticia__texto {
+    width: 100%;
+    height: auto;
+    font-size: 1.3rem;
+    text-align: left;
+  }
+}
+.top-pvp {
+  margin-top: 10px;
+  background-color: rgba(255, 0, 0, 0.116);
+  font-size: 1.5rem;
+  padding-inline-start: 5%;
+  padding-bottom: 7%;
+  font-family: monospace;
+  text-align: center;
+  border: 0.5rem groove crimson;
+}
+.top-pvp h2 {
+  font-family: Metamorphous;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.staff-tarjeta {
+  font-family: Metamorphous;
+  color: #F0EFEA;
+  text-align: center;
+  background-color: #C0B2B5;
+  background-image: url(../img/bgtarjeta.gif);
+  box-shadow: 0px 4px 4px;
+  border-radius: 20px;
+  margin: 5%;
+  height: 200px;
+  width: 90%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.staff-tarjeta:hover {
+  box-shadow: 0px 9px 9px;
+  color: crimson;
+  transform: scale(1.1);
+}
+
+.caja-galery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.captura {
+  width: 90%;
+  height: 35vh;
+  object-fit: cover;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+
+.captura:hover {
+  box-shadow: 0px 9px 9px;
+  transform: scale(1.2);
+}
+
+@media (min-width: 768px) {
+  .caja-galery {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(4, 25vh);
+    justify-content: center;
+  }
+  .captura {
+    width: 100%;
+    height: 100%;
+  }
+  .captura__pricipal {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+@media (min-width: 1024px) {
+  .caja-galery {
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: repeat(2, 35vh);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

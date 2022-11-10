@@ -1,0 +1,35 @@
+.header {
+    &__titulo {
+        font-size: 5rem;
+        font-family: Metamorphous;
+        color: crimson;
+        background-color: black;
+        background-image: url(../img/bgtarjeta.gif);
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+.titulo-categoria {
+    font-family: Metamorphous;
+    background-image: url(../img/banner2.jpg);
+    font-size: 3rem;
+    color: $color-bg;
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portada {
+    &__titulo {
+        margin-top: 50px;
+        font-family: Metamorphous;
+        font-size: 3rem;
+        color: $color-secundario;
+        text-align: center;
+        background-color: black;
+    }
+}
