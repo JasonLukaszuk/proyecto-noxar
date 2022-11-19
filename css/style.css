@@ -71,22 +71,22 @@ footer h2 {
 .header__titulo {
   font-size: 5rem;
   font-family: Metamorphous;
-  color: crimson;
-  background-color: black;
-  background-image: url(../img/bgtarjeta.gif);
-  padding: 20px;
-  margin-bottom: 50px;
+  color: #F0EFEA;
+  background-image: url(../img/bg-portada.jpg);
+  padding: 50px;
+  margin-bottom: 20px;
 }
 
 .titulo-categoria {
   font-family: Metamorphous;
-  background-image: url(../img/banner2.jpg);
+  background-image: url(../img/bg-portada.jpg);
   font-size: 3rem;
   color: #F0EFEA;
   text-align: center;
   background-color: black;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .portada__titulo {
@@ -105,6 +105,7 @@ footer h2 {
   text-align: justify;
   padding: 7px;
   margin-inline: 5px;
+  margin-bottom: 15px;
   font-size: 1.5rem;
   font-family: monospace;
   transition-duration: 0.4s;
@@ -233,7 +234,7 @@ footer h2 {
   color: #F0EFEA;
   text-align: center;
   background-color: #C0B2B5;
-  background-image: url(../img/bgtarjeta.gif);
+  background-image: url(../img/banner2.jpg);
   box-shadow: 0px 4px 4px;
   border-radius: 20px;
   margin: 5%;
